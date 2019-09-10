@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-day-1.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-day-2.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-day-3.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-night-1.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-night-2.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\cloudy-night-3.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\day.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\LICENSE" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\night.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-1.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-2.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-3.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-4.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-5.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-6.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\rainy-7.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-1.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-2.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-3.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-4.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-5.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\snowy-6.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\thunder.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\weather.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\weather_sagittarius.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\weather_sunset.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="animated\weather-sprite.svg" Target="Images\animated\" Type="ElementFile" />
+    <ProjectItemFile Source="Gotemburg.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Malmo.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="stockholm.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Fernanda.jpg" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

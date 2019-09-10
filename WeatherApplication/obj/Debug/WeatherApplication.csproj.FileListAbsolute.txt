@@ -1,0 +1,5 @@
+C:\Users\Fernanda Ek\Documents\WeatherApplication\WeatherApplication\bin\Debug\WeatherApplication.pdb
+C:\Users\Fernanda Ek\Documents\WeatherApplication\WeatherApplication\obj\Debug\WeatherApplication.csprojAssemblyReference.cache
+C:\Users\Fernanda Ek\Documents\WeatherApplication\WeatherApplication\obj\Debug\WeatherApplication.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda Ek\Documents\WeatherApplication\WeatherApplication\obj\Debug\WeatherApplication.dll
+C:\Users\Fernanda Ek\Documents\WeatherApplication\WeatherApplication\obj\Debug\WeatherApplication.pdb

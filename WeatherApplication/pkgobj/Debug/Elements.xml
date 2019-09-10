@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="ClientWeatherApplication" Title="ClientWeatherApplication Novo" Description="ClientWeatherApplication Description" DefaultWidth="300" DefaultHeight="200">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/ClientWeatherApplication.aspx?{StandardTokens}" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+
+    <Properties>
+      <Property Name="Temperatur"
+                Type="boolean"
+                RequiresDesignerPermission="true"
+                WebDisplayName="Show Temperature"
+                WebCategory="Show temperature"
+                DefaultValue="false">
+      </Property>
+
+      <Property
+           Name="appKey"
+           Type="string"
+           RequiresDesignerPermission="false"
+           WebCategory="Weather Settings"
+           WebDisplayName="API Key - Get a key from darksky.net/dev/ (It's free..)"
+           DefaultValue="InsertAPIKeyHere"
+      >
+      </Property>
+
+      <Property Name="WindDirection"
+                Type="boolean"
+                RequiresDesignerPermission="true"
+                WebDisplayName="Show wind direction"
+                WebCategory="Wind"
+                DefaultValue="false">
+      </Property>
+
+      <Property Name="WindSpeed"
+                Type="boolean"
+                RequiresDesignerPermission="true"
+                WebDisplayName="Show wind speed"
+                WebCategory="Wind Speed"
+                DefaultValue="false">
+      </Property>
+
+      <Property Name="MyEnumOne"
+                Type="enum"
+                RequiresDesignerPermission="true"
+                WebCategory="Template"
+                WebDisplayName="Show template"
+                DefaultValue="1">
+
+        <EnumItems>
+          <EnumItem WebDisplayName="First option" Value="1"/>
+          <EnumItem WebDisplayName="Second option" Value="2"/>
+          <EnumItem WebDisplayName="Third option" Value="3"/>
+        </EnumItems>
+      </Property>
+
+      <Property Name="MyEnumTwo"
+                Type="enum"
+                RequiresDesignerPermission="true"
+                WebCategory="Plats"
+                WebDisplayName="Select unit"
+                DefaultValue="1">
+
+        <EnumItems>
+          <EnumItem WebDisplayName="Stockholm" Value="1"/>
+          <EnumItem WebDisplayName="Malmö" Value="2"/>
+          <EnumItem WebDisplayName="Gotemburg" Value="3"/>
+        </EnumItems>
+      </Property>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>
